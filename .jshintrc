@@ -1,0 +1,23 @@
+{
+  "predef": [
+    "console",
+    "document",
+    "window",
+    "setTimeout",
+    "require",
+    "module",
+    "__dirname",
+    "$"
+  ],
+  "unused": "vars",
+  "undef": true,
+  "indent": 4,
+  "quotmark": "single",
+  "trailing": true,
+  "latedef": "nofunc",
+  "maxdepth": 3,
+  "nonbsp": true,
+  "node": true,
+  "browser": true,
+  "strict": true
+}

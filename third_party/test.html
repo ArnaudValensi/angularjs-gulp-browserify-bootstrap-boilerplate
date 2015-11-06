@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+      <base href="/">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title ng-bind="pageTitle"></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width">
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+      <script src="galleria/galleria-1.4.2.js"></script>
+      <!-- <script src="galleria/themes/classic/galleria.classic.js"></script> -->
+      <link rel="stylesheet" href="galleria/themes/classic/galleria.classic.css">
+      <!-- <script src="galleria/themes/fullscreen/galleria.fullscreen.min.js"></script>
+      <link rel="stylesheet" href="galleria/themes/fullscreen/galleria.fullscreen.css"> -->
+
+      <style>
+          #property-gallery{ width: 700px; height: 400px; background: #000 }
+      </style>
+  </head>
+  <body>
+
+      <div id="property-gallery">
+        <img src="http://mariusn.com/themes/reales-wp/wp-content/uploads/2014/12/bg-1.jpg">
+        <img src="http://mariusn.com/themes/reales-wp/wp-content/uploads/2014/12/blog-1.jpg">
+        <img src="http://mariusn.com/themes/reales-wp/wp-content/uploads/2015/01/blog-4.jpg">
+      </div>
+
+      <script>
+        //   Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+          Galleria.run('#property-gallery');
+      </script>
+  </body>
+</html>
