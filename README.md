@@ -1,38 +1,21 @@
-angularjs-gulp-browserify-boilerplate
-=====================================
+angularjs-gulp-browserify-bootstrap-boilerplate
+===============================================
 
-A boilerplate using AngularJS, SASS, Gulp, and Browserify that also utilizes [these best AngularJS practices](https://github.com/toddmotto/angularjs-styleguide)  and Gulp best practices from [this resource](https://github.com/greypants/gulp-starter).
+Based on https://github.com/jakemmarsh/angularjs-gulp-browserify-boilerplate
 
-[View contributors](https://github.com/jakemmarsh/angularjs-gulp-browserify-boilerplate/graphs/contributors)
+A boilerplate using AngularJS, Bootstrap, Font Awesome, SASS, Gulp, and Browserify that also utilizes [these best AngularJS practices](https://github.com/toddmotto/angularjs-styleguide)  and Gulp best practices from [this resource](https://github.com/greypants/gulp-starter).
 
 ---
 
 ### Getting up and running
 
-1. Clone this repo from `https://github.com/jakemmarsh/angularjs-gulp-browserify-boilerplate.git`
+1. Clone this repo from `https://github.com/ArnaudValensi/angularjs-gulp-browserify-bootstrap-boilerplate.git`
 2. Run `npm install` from the root directory
 3. Run `gulp dev` (may require installing Gulp globally `npm install gulp -g`)
 4. Your browser will automatically be opened and directed to the browser-sync proxy address
 5. To prepare assets for production, run the `gulp prod` task (Note: the production task does not fire up the express server, and won't provide you with browser-sync's live reloading. Simply use `gulp dev` during development. More information below)
 
 Now that `gulp dev` is running, the server is up as well and serving files from the `/build` directory. Any changes in the `/app` directory will be automatically processed by Gulp and the changes will be injected to any open browsers pointed at the proxy address.
-
-##### Getting up and running with Yeoman
-
-[angularjs-gulp-browserify-boilerplate generator for Yeoman](https://github.com/alferov/generator-angular-gulp-browserify)
-
----
-
-This boilerplate uses the latest versions of the following libraries:
-
-- [AngularJS](http://angularjs.org/)
-- [SASS](http://sass-lang.com/)
-- [Gulp](http://gulpjs.com/)
-- [Browserify](http://browserify.org/)
-
-Along with many Gulp libraries (these can be seen in either `package.json`, or at the top of each task in `/gulp/tasks/`).
-
----
 
 ### AngularJS
 
